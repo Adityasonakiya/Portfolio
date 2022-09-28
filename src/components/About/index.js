@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
   faNode,
-  faNodeJs,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
@@ -53,7 +51,7 @@ const About =() => {
           </p>
           <p>
             If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
+            person,a gym bro, a finance fanatic,
             photography enthusiast, and tech-obsessed!!!
           </p>
         </div>

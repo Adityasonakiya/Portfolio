@@ -3,7 +3,7 @@ import "./index.scss";
 import { useState, useEffect } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetter'
-import Logo from "./logo";
+// import Logo from "./logo";
 
 
 
@@ -68,7 +68,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        {/* <Logo /> */}
       </div>
 
       <Loader type="pacman" />

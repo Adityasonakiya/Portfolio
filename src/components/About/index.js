@@ -18,16 +18,14 @@ const About =() => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
-
-        setTimeout();
-      }, [])
-    
-      const setTimeout = () => {
-        return(
-        setLetterClass('text-animate-hover')
-      , 3000)
+      const timer = setTimeout(() => {
+        setLetterClass('text-animate-hover');
+      }, 3000);
+  
+      return () => {
+        clearTimeout(timer);
       }
-    
+    });
 
     return (
         <>

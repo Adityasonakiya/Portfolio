@@ -32,7 +32,7 @@ const sidebar = () => {
             </nav>
             <ul>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="linkedin.com/in/aditya-sonakiya-4433b8184" >
+                    <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/aditya-sonakiya-4433b8184" >
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                     </a>
                 </li>

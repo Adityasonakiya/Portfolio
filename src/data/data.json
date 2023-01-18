@@ -1,19 +1,19 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.jpg",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJvNLmM7Nbtb612Fs3agfV_M9DKQGM3Eq_xEVtMXj&s",
             "title": "Chat WebApp",
             "description": "React, JSX, Socket, MongoDB",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/1/one.jpg",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJvNLmM7Nbtb612Fs3agfV_M9DKQGM3Eq_xEVtMXj&s",
             "title": "Realtime Code Editor",
             "description": "React, JSX, Socket",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/1/one.jpg",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJvNLmM7Nbtb612Fs3agfV_M9DKQGM3Eq_xEVtMXj&s",
             "title": "To-do List",
             "description": "React, JSX, MongoDB",
             "url": "http://google.com"

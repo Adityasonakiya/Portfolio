@@ -21,13 +21,13 @@ const Sidebar = () => {
                 <img src={Aditya} className="sub-logo" alt="Aditya"></img>
             </Link>
             <nav className={showNav ? 'mobile-show' : ''}>
-                <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" to='/'>
+                <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" to='/Portfolio_web'>
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
                 </NavLink>
                 <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="about-link" to='/about'>
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
                 </NavLink>
-                <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="portfolio-link" to='/portfolio'>
+                <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="portfolio-link" to='/work'>
                     <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
                 </NavLink>
                 <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="contact-link" to='/contact'>

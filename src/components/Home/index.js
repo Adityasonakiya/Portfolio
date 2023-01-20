@@ -7,7 +7,7 @@ import Logo from "./logo";
 
 
 
-const Home = () => {
+const Portfolio_web = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['d', 'i', 't', 'y', 'a']
@@ -76,4 +76,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Portfolio_web;
